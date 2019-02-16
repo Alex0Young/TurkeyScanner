@@ -1,0 +1,61 @@
+---   System Suggestions:   ---
+Sh Debug Model Suggestion:
+  *开启Sh Debug 模式会暴露过多的系统信息，请注意
+Bash Debug Model Suggestion:
+  *开启Bash Debug 模式会暴露过多的系统信息，请注意
+SSH Port Suggestion:
+  *将SSH端口设置为非22且大于1024的端口，可降低被扫描器扫描的几率
+SSH Protocol Suggestion:
+  *使用SSH2协议更加安全，SSH1协议会被攻击
+SSH RSAAuthentication Suggestion:
+  *公钥认证登录，可以防止字典攻击弱密钥
+SSH TCP Wrappers Suggestion:
+  *仅允许特定ip登录，防止非法IP登录
+Process Suggestion:
+  *请按照检查结果排查权限过大的进程
+Process Suggestion:
+  *日志中含有敏感信息，请排查
+Login Status Suggestion:
+  *登录状态中，含有非当前用户登录状态，请检查登录异常报告
+SSH Port Suggestion:
+  *将SSH端口设置为非22且大于1024的端口，可降低被扫描器扫描的几率
+SSH Protocol Suggestion:
+  *使用SSH2协议更加安全，SSH1协议会被攻击
+SSH RSAAuthentication Suggestion:
+  *公钥认证登录，可以防止字典攻击弱密钥
+SSH TCP Wrappers Suggestion:
+  *仅允许特定ip登录，防止非法IP登录
+Process Suggestion:
+  *请按照检查结果排查权限过大的进程
+Process Suggestion:
+  *日志中含有敏感信息，请排查
+Login Status Suggestion:
+  *登录状态中，含有非当前用户登录状态，请检查登录异常报告
+SSH Port Suggestion:
+  *将SSH端口设置为非22且大于1024的端口，可降低被扫描器扫描的几率
+SSH Protocol Suggestion:
+  *使用SSH2协议更加安全，SSH1协议会被攻击
+SSH RSAAuthentication Suggestion:
+  *公钥认证登录，可以防止字典攻击弱密钥
+SSH TCP Wrappers Suggestion:
+  *仅允许特定ip登录，防止非法IP登录
+Process Suggestion:
+  *请按照检查结果排查权限过大的进程
+Process Suggestion:
+  *日志中含有敏感信息，请排查
+Login Status Suggestion:
+  *登录状态中，含有非当前用户登录状态，请检查登录异常报告
+SSH Port Suggestion:
+  *将SSH端口设置为非22且大于1024的端口，可降低被扫描器扫描的几率
+SSH Protocol Suggestion:
+  *使用SSH2协议更加安全，SSH1协议会被攻击
+SSH RSAAuthentication Suggestion:
+  *公钥认证登录，可以防止字典攻击弱密钥
+SSH TCP Wrappers Suggestion:
+  *仅允许特定ip登录，防止非法IP登录
+Process Suggestion:
+  *请按照检查结果排查权限过大的进程
+Process Suggestion:
+  *日志中含有敏感信息，请排查
+Login Status Suggestion:
+  *登录状态中，含有非当前用户登录状态，请检查登录异常报告

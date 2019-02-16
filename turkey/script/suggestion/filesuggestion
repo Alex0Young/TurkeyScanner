@@ -1,0 +1,5 @@
+FIle Access and FireWalls suggestions:
+   [-] OUTPUT Chain default rule recommended to be DROP
+   [-] INPUT Chain default rule recommended to be DROP
+    After set DROP then you should allow a range of IP address or a specific IP address\n
+   [-] Not limit package which may cause dos attack

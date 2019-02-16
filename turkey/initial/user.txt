@@ -1,0 +1,7 @@
+user
+root
+lqx
+anonymous
+ftp
+mysql
+test

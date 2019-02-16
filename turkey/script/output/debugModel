@@ -1,0 +1,40 @@
+/usr/lib/rpm/ocaml-find-provides.sh:6:#set -x
+/usr/lib/rpm/ocaml-find-requires.sh:6:#set -x
+/usr/lib/dracut/dracut-logger.sh:382:    [ -n "$debug" ] && set -x || :
+/usr/lib/dracut/dracut-logger.sh:392:    [ -n "$debug" ] && set -x || :
+/usr/lib/dracut/dracut-logger.sh:402:    [ -n "$debug" ] && set -x || :
+/usr/lib/dracut/dracut-logger.sh:412:    [ -n "$debug" ] && set -x || :
+/usr/lib/dracut/dracut-logger.sh:422:    [ -n "$debug" ] && set -x || :
+/usr/lib/dracut/dracut-logger.sh:432:    [ -n "$debug" ] && set -x || :
+/usr/lib/dracut/dracut-logger.sh:442:    [ -n "$debug" ] && set -x || :
+/usr/lib/dracut/modules.d/90kernel-modules/module-setup.sh:34:            [[ $debug ]] && set -x
+/usr/lib/dracut/modules.d/30convertfs/do-convertfs.sh:7:        bash -x convertfs "$NEWROOT" 2>&1 | vinfo
+/usr/lib/dracut/modules.d/99kdumpbase/module-setup.sh:11:    [[ $debug ]] && set -x
+/usr/lib/dracut/modules.d/50drm/module-setup.sh:47:        [[ $debug ]] && set -x
+/usr/lib/dracut/modules.d/90dmsquash-live/dmsquash-live-root.sh:14:    set -x
+/usr/lib/dracut/modules.d/90multipath/module-setup.sh:74:        [[ $debug ]] && set -x
+/usr/lib/dracut/modules.d/40network/module-setup.sh:54:        [[ $debug ]] && set -x
+/usr/lib/dracut/modules.d/95iscsi/module-setup.sh:110:        [[ $debug ]] && set -x
+/usr/lib/dracut/modules.d/99base/dracut-lib.sh:24:    [ "$RD_DEBUG" = "yes" ] && set -x
+/usr/lib/dracut/modules.d/99base/rdsosreport.sh:9:set -x
+/usr/src/kernels/4.11.0-0.ns7.se.14.x86_64/scripts/adjust_autoksyms.sh:37:	set -x
+/usr/src/kernels/4.11.0-0.ns7.se.14.x86_64/scripts/decode_stacktrace.sh:3:#set -x
+/usr/src/kernels/4.11.0-0.ns7.se.14.x86_64/scripts/link-vmlinux.sh:193:	set -x
+/usr/src/kernels/4.11.0-0.ns7.se.14.x86_64/scripts/tags.sh:11:	set -x
+/usr/share/libtool/config/ltmain.sh:1065:      --debug|-x)	opt_debug='set -x'
+/usr/share/java-utils/pom_editor.sh:338:    set -x
+/usr/share/java-utils/pom_editor.sh:347:    set -x
+/usr/share/java-utils/pom_editor.sh:356:    set -x
+/usr/share/java-utils/pom_editor.sh:365:    set -x
+/usr/share/java-utils/pom_editor.sh:374:    set -x
+/usr/share/java-utils/pom_editor.sh:383:    set -x
+/usr/share/java-utils/pom_editor.sh:392:    set -x
+/usr/share/java-utils/pom_editor.sh:401:    set -x
+/usr/share/java-utils/pom_editor.sh:410:    set -x
+/usr/share/java-utils/pom_editor.sh:420:    set -x
+/usr/share/java-utils/pom_editor.sh:430:    set -x
+/usr/share/java-utils/pom_editor.sh:441:    set -x
+/usr/share/java-utils/pom_editor.sh:452:    set -x
+/usr/lib64/python2.7/pipes.py:189:            cmd = 'set -x; ' + cmd
+/usr/lib64/python2.7/site-packages/sepolicy/templates/script.py:65:set -x
+/usr/lib/python2.7/site-packages/firewall/core/fw_zone.py:1033:            _command += [ "-j", "MARK", "--set-xmark", rule.action.set ]

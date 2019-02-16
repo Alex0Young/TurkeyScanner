@@ -1,0 +1,19 @@
+localhost.localdomain
+4.11.0-0.ns7.se.14.x86_64
+x86_64
+model name	: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz
+		ens33: 00:0c:29:2f:e6:d2
+		virbr0: 192.168.122.1
+		virbr0-nic: 52:54:00:a0:ed:34
+No outside network or ACL drop
+root
+/root
+1981MB
+339MB
+82.84%
+26GB
+18GB
+30.80%
+1757K
+1574K
+10.37%

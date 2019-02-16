@@ -1,0 +1,104 @@
+服务配置
+--------
+abrt-ccpp.service                            enabled
+abrt-oops.service                            enabled
+abrt-vmcore.service                          enabled
+abrt-xorg.service                            enabled
+abrtd.service                                enabled
+accounts-daemon.service                      enabled
+atd.service                                  enabled
+auditd.service                               enabled
+autovt@.service                              enabled
+avahi-daemon.service                         enabled
+bluetooth.service                            enabled
+chronyd.service                              enabled
+crond.service                                enabled
+ctmm.service                                 enabled
+cups.service                                 enabled
+dbus-org.bluez.service                       enabled
+dbus-org.fedoraproject.FirewallD1.service    enabled
+dbus-org.freedesktop.Avahi.service           enabled
+dbus-org.freedesktop.ModemManager1.service   enabled
+dbus-org.freedesktop.NetworkManager.service  enabled
+dbus-org.freedesktop.nm-dispatcher.service   enabled
+display-manager.service                      enabled
+dmraid-activation.service                    enabled
+firewalld.service                            enabled
+gdm.service                                  enabled
+getty@.service                               enabled
+irqbalance.service                           enabled
+iscsi.service                                enabled
+isic.service                                 enabled
+kdump.service                                enabled
+ksm.service                                  enabled
+ksmtuned.service                             enabled
+libstoragemgmt.service                       enabled
+libvirtd.service                             enabled
+lvm2-monitor.service                         enabled
+mdmonitor.service                            enabled
+microcode.service                            enabled
+ModemManager.service                         enabled
+multipathd.service                           enabled
+NetworkManager-dispatcher.service            enabled
+NetworkManager.service                       enabled
+postfix.service                              enabled
+qemu-guest-agent.service                     enabled
+rngd.service                                 enabled
+rsyslog.service                              enabled
+rtkit-daemon.service                         enabled
+smartd.service                               enabled
+spice-vdagentd.service                       enabled
+sshd.service                                 enabled
+sysstat.service                              enabled
+systemd-readahead-collect.service            enabled
+systemd-readahead-drop.service               enabled
+systemd-readahead-replay.service             enabled
+tuned.service                                enabled
+usercapset.service                           enabled
+vmtoolsd.service                             enabled
+xinetd.service                               enabled
+
+正在运行的服务
+--------------
+abrt-oops.service        loaded active running ABRT kernel log watcher
+abrt-xorg.service        loaded active running ABRT Xorg log watcher
+abrtd.service            loaded active running ABRT Automated Bug Reporting Tool
+accounts-daemon.service  loaded active running Accounts Service
+alsa-state.service       loaded active running Manage Sound Card State (restore and store)
+atd.service              loaded active running Job spooling tools
+auditd.service           loaded active running Security Auditing Service
+avahi-daemon.service     loaded active running Avahi mDNS/DNS-SD Stack
+chronyd.service          loaded active running NTP client/server
+colord.service           loaded active running Manage, Install and Generate Color Profiles
+crond.service            loaded active running Command Scheduler
+cups.service             loaded active running CUPS Printing Service
+dbus.service             loaded active running D-Bus System Message Bus
+firewalld.service        loaded active running firewalld - dynamic firewall daemon
+gdm.service              loaded active running GNOME Display Manager
+gssproxy.service         loaded active running GSSAPI Proxy Daemon
+ksmtuned.service         loaded active running Kernel Samepage Merging (KSM) Tuning Daemon
+libstoragemgmt.service   loaded active running libstoragemgmt plug-in server daemon
+libvirtd.service         loaded active running Virtualization daemon
+lvm2-lvmetad.service     loaded active running LVM2 metadata daemon
+ModemManager.service     loaded active running Modem Manager
+NetworkManager.service   loaded active running Network Manager
+packagekit.service       loaded active running PackageKit Daemon
+polkit.service           loaded active running Authorization Manager
+postfix.service          loaded active running Postfix Mail Transport Agent
+rngd.service             loaded active running Hardware RNG Entropy Gatherer Daemon
+rsyslog.service          loaded active running System Logging Service
+rtkit-daemon.service     loaded active running RealtimeKit Scheduling Policy Service
+secauditd.service        loaded active running LSB: Very Secure auth Daemon
+secboxd.service          loaded active running LSB: Very Secure auth Daemon
+smartd.service           loaded active running Self Monitoring and Reporting Technology (SMART) Daemon
+sshd.service             loaded active running OpenSSH server daemon
+systemd-journald.service loaded active running Journal Service
+systemd-logind.service   loaded active running Login Service
+systemd-udevd.service    loaded active running udev Kernel Device Manager
+tuned.service            loaded active running Dynamic System Tuning Daemon
+udisks2.service          loaded active running Disk Manager
+ukeyeventd.service       loaded active running (null)
+upower.service           loaded active running Daemon for power management
+vmtoolsd.service         loaded active running Service for virtual machines hosted on VMware
+wpa_supplicant.service   loaded active running WPA Supplicant daemon
+xinetd.service           loaded active running Xinetd A Powerful Replacement For Inetd 1

@@ -1,0 +1,116 @@
+root          1      0  0 20:31 ?        00:00:02 /usr/lib/systemd/systemd --switched-root --system --deserialize 21
+root        449      1  0 20:31 ?        00:00:00 /usr/lib/systemd/systemd-journald
+root        454      1  0 20:31 ?        00:00:00 /usr/sbin/lvmetad -f
+root        473      1  0 20:31 ?        00:00:00 /usr/lib/systemd/systemd-udevd
+root        910      1  0 20:31 ?        00:00:00 /usr/sbin/ModemManager
+avahi       912    909  0 20:31 ?        00:00:00 avahi-daemon: chroot helper
+root        917      1  0 20:31 ?        00:00:00 /usr/bin/vmtoolsd
+root        924      1  0 20:31 ?        00:00:00 /usr/libexec/accounts-daemon
+root        935      1  0 20:31 ?        00:00:00 /usr/sbin/alsactl -s -n 19 -c -E ALSA_CONFIG_PATH=/etc/alsa/alsactl.conf --initfile=/lib/alsa/init/00main rdaemon
+root        940      1  0 20:31 ?        00:00:00 /usr/sbin/gssproxy -D
+root        944      1  0 20:31 ?        00:00:00 /usr/lib/systemd/systemd-logind
+root        957      1  0 20:31 ?        00:00:00 /sbin/rngd -f
+root        960      1  0 20:31 ?        00:00:00 /usr/sbin/smartd -n -q never
+root        962      1  0 20:31 ?        00:00:00 /usr/sbin/abrtd -d -s
+root        965      1  0 20:31 ?        00:00:00 /usr/bin/abrt-watch-log -F Backtrace /var/log/Xorg.0.log -- /usr/bin/abrt-dump-xorg -xD
+root        969      1  0 20:31 ?        00:00:00 /usr/bin/abrt-watch-log -F BUG: WARNING: at WARNING: CPU: INFO: possible recursive locking detected ernel BUG at list_del corruption list_add corruption do_IRQ: stack overflow: ear stack overflow (cur: eneral protection fault nable to handle kernel ouble fault: RTNL: assertion failed eek! page_mapcount(page) went negative! adness at NETDEV WATCHDOG ysctl table check failed : nobody cared IRQ handler type mismatch Machine Check Exception: Machine check events logged divide error: bounds: coprocessor segment overrun: invalid TSS: segment not present: invalid opcode: alignment check: stack segment: fpu exception: simd exception: iret exception: /var/log/messages -- /usr/bin/abrt-dump-oops -xtD
+root        988      1  0 20:31 ?        00:00:00 /bin/bash /usr/sbin/ksmtuned
+root       1003      1  0 20:31 ?        00:00:00 /usr/bin/python -Es /usr/sbin/firewalld --nofork --nopid
+root       1006      1  0 20:31 ?        00:00:00 /usr/sbin/NetworkManager --no-daemon
+root       1268      1  0 20:31 ?        00:00:00 /usr/sbin/cupsd -f
+root       1270      1  0 20:31 ?        00:00:00 /usr/sbin/xinetd -stayalive -pidfile /var/run/xinetd.pid
+root       1272      1  0 20:31 ?        00:00:00 /usr/sbin/rsyslogd -n
+root       1274      1  0 20:31 ?        00:00:00 /usr/bin/python -Es /usr/sbin/tuned -l -P
+root       1289      1  0 20:31 ?        00:00:00 /usr/sbin/ukeyevent
+root       1298      1  0 20:31 ?        00:00:00 /usr/sbin/sshd
+root       1299      1  0 20:31 ?        00:00:00 /usr/sbin/libvirtd
+root       1308      1  0 20:31 ?        00:00:00 /usr/sbin/crond -n
+root       1314      1  0 20:31 ?        00:00:00 /usr/sbin/atd -f
+root       1318      1  0 20:31 ?        00:00:00 /usr/sbin/gdm
+root       1329      1  0 20:31 ?        00:00:00 /bin/secauditd
+root       1359      1  0 20:31 ?        00:00:00 /usr/bin/secboxd
+root       2357      1  0 20:31 ?        00:00:00 /usr/libexec/postfix/master -w
+root       2528   2527  0 20:31 ?        00:00:00 /sbin/dnsmasq --conf-file=/var/lib/libvirt/dnsmasq/default.conf --leasefile-ro --dhcp-script=/usr/libexec/libvirt_leaseshelper
+root       2971   1318  4 20:31 tty1     00:00:31 /usr/bin/Xorg :0 -background none -noreset -audit 4 -verbose -auth /run/gdm/auth-for-gdm-x9iilz/database -seat seat0 -nolisten tcp vt1
+root       3144      1  0 20:31 ?        00:00:00 /usr/libexec/upowerd
+root       3165   3161  0 20:31 ?        00:00:00 fusermount -o rw,nosuid,nodev,subtype=gvfsd-fuse -- /run/user/42/gvfs
+root       3228      1  0 20:31 ?        00:00:00 /usr/sbin/wpa_supplicant -u -f /var/log/wpa_supplicant.log -c /etc/wpa_supplicant/wpa_supplicant.conf -u -f /var/log/wpa_supplicant.log -P /var/run/wpa_supplicant.pid
+root       3236      1  0 20:31 ?        00:00:00 /usr/libexec/packagekitd
+root       3264      1  0 20:31 ?        00:00:00 /usr/lib/udisks2/udisksd --no-debug
+root       3394      1  0 20:32 ?        00:00:00 /usr/bin/gnome-keyring-daemon --daemonize --login
+root       3405   3379  0 20:32 ?        00:00:00 gnome-session --session gnome-classic
+root       3412      1  0 20:32 ?        00:00:00 dbus-launch --sh-syntax --exit-with-session
+root       3413      1  0 20:32 ?        00:00:00 /bin/dbus-daemon --fork --print-pid 4 --print-address 6 --session
+root       3473      1  0 20:32 ?        00:00:00 /usr/libexec/gvfsd
+root       3478      1  0 20:32 ?        00:00:00 /usr/libexec/gvfsd-fuse /run/user/0/gvfs -f -o big_writes
+root       3558   3405  0 20:32 ?        00:00:00 /usr/bin/ssh-agent /bin/sh -c exec -l /bin/bash -c "env GNOME_SHELL_SESSION_MODE=classic gnome-session --session gnome-classic"
+root       3590      1  0 20:32 ?        00:00:00 /usr/libexec/at-spi-bus-launcher
+root       3595   3590  0 20:32 ?        00:00:00 /bin/dbus-daemon --config-file=/etc/at-spi2/accessibility.conf --nofork --print-address 3
+root       3597      1  0 20:32 ?        00:00:00 /usr/libexec/at-spi2-registryd --use-gnome-session
+root       3610   3405  0 20:32 ?        00:00:00 /usr/libexec/gnome-settings-daemon
+root       3622      1  0 20:32 ?        00:00:00 /usr/bin/pulseaudio --start
+root       3636   3405  7 20:32 ?        00:00:51 /usr/bin/gnome-shell
+root       3639      1  0 20:32 ?        00:00:00 /usr/libexec/gsd-printer
+root       3650   3636  0 20:32 ?        00:00:00 ibus-daemon --xim --panel disable
+root       3655   3650  0 20:32 ?        00:00:00 /usr/libexec/ibus-dconf
+root       3657      1  0 20:32 ?        00:00:00 /usr/libexec/ibus-x11 --kill-daemon
+root       3661      1  0 20:32 ?        00:00:00 /usr/libexec/gnome-shell-calendar-server
+root       3670      1  0 20:32 ?        00:00:00 /usr/libexec/evolution-source-registry
+root       3674      1  0 20:32 ?        00:00:00 /usr/libexec/mission-control-5
+root       3680      1  0 20:32 ?        00:00:00 /usr/libexec/goa-daemon
+root       3685      1  0 20:32 ?        00:00:00 /usr/libexec/caribou
+root       3693      1  0 20:32 ?        00:00:00 /usr/libexec/goa-identity-service
+root       3696      1  0 20:32 ?        00:00:00 /usr/libexec/gvfs-udisks2-volume-monitor
+root       3704      1  0 20:32 ?        00:00:00 /usr/libexec/gvfs-goa-volume-monitor
+root       3714      1  0 20:32 ?        00:00:00 /usr/libexec/gvfs-mtp-volume-monitor
+root       3719      1  0 20:32 ?        00:00:00 /usr/libexec/gvfs-afc-volume-monitor
+root       3725      1  0 20:32 ?        00:00:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+root       3729   3405  0 20:32 ?        00:00:01 nautilus --no-default-window --force-desktop
+root       3734   3405  0 20:32 ?        00:00:00 /usr/libexec/tracker-miner-apps
+root       3735   3405  0 20:32 ?        00:00:00 licmanager
+root       3736   3405  0 20:32 ?        00:00:00 /bin/audittray
+root       3738      1  0 20:32 ?        00:00:00 /usr/bin/vmtoolsd -n vmusr
+root       3739   3405  0 20:32 ?        00:00:00 abrt-applet
+root       3744      1  0 20:32 ?        00:00:00 licmanager
+root       3749      1  0 20:32 ?        00:00:00 /usr/libexec/tracker-store
+root       3750   3405  0 20:32 ?        00:00:00 /usr/libexec/evolution/3.12/evolution-alarm-notify
+root       3759   3405  0 20:32 ?        00:00:00 /usr/libexec/tracker-extract
+root       3767   3405  0 20:32 ?        00:00:00 /usr/bin/gnome-software --gapplication-service
+root       3772   3405  0 20:32 ?        00:00:00 /usr/libexec/tracker-miner-user-guides
+root       3790   3405  0 20:32 ?        00:00:00 /usr/libexec/tracker-miner-fs
+root       3837      1  0 20:32 ?        00:00:00 /usr/libexec/gconfd-2
+root       3973      1  0 20:32 ?        00:00:00 /usr/libexec/gvfsd-trash --spawner :1.3 /org/gtk/gvfs/exec_spaw/0
+root       4102      1  0 20:32 ?        00:00:00 /usr/libexec/evolution-calendar-factory
+root       4114   3650  0 20:32 ?        00:00:00 /usr/libexec/ibus-engine-simple
+root       4124      1  0 20:32 ?        00:00:00 /usr/libexec/gvfsd-burn --spawner :1.3 /org/gtk/gvfs/exec_spaw/1
+root       4174      1  0 20:32 ?        00:00:00 /usr/libexec/dconf-service
+root       4351      1  0 20:34 ?        00:00:00 /usr/libexec/gvfsd-metadata
+root       4492      1  0 20:37 ?        00:00:01 /usr/libexec/gnome-terminal-server
+root       4496   4492  0 20:37 ?        00:00:00 gnome-pty-helper
+root       4832      1  1 20:37 ?        00:00:03 /usr/bin/gedit --gapplication-service
+root       9703    988  0 20:42 ?        00:00:00 sleep 60
+  - 内存占用TOP10
+-------------
+PID   %MEM  RSS     COMMAND
+3636  14.7  299528  /usr/bin/gnome-shell
+2971  4.2   85540   /usr/bin/Xorg
+4102  3.7   76532   /usr/libexec/evolution-calendar-factory
+4832  2.7   55480   /usr/bin/gedit
+3729  2.6   53932   nautilus
+3736  2.3   48012   /bin/audittray
+3750  2.3   47460   /usr/libexec/evolution/3.12/evolution-alarm-notify
+3670  1.9   39980   /usr/libexec/evolution-source-registry
+3610  1.9   39256   /usr/libexec/gnome-settings-daemon
+3661  1.8   37632   /usr/libexec/gnome-shell-calendar-server
+  - CPU占用TOP10
+   PID USER      PR  NI    VIRT    RES    SHR S %CPU %MEM     TIME+ COMMAND
+  3636 root      20   0 1563028 299528  84800 S 31.2 14.8   0:51.59 gnome-shell
+  2971 root      20   0  281468  85540  22160 S 18.8  4.2   0:31.12 Xorg
+     1 root      20   0  125528   5464   3776 S  0.0  0.3   0:02.37 systemd
+     2 root      20   0       0      0      0 S  0.0  0.0   0:00.00 kthreadd
+     4 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 kworker/0:0H
+     5 root      20   0       0      0      0 S  0.0  0.0   0:00.09 kworker/u256:0
+     6 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 mm_percpu_wq
+     7 root      20   0       0      0      0 S  0.0  0.0   0:00.11 ksoftirqd/0
+     8 root      20   0       0      0      0 R  0.0  0.0   0:00.31 rcu_sched
+     9 root      20   0       0      0      0 S  0.0  0.0   0:00.00 rcu_bh
